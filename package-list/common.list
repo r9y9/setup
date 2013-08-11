@@ -1,0 +1,12 @@
+build-essential
+openssh-server
+openssh-client
+emacs24
+zsh
+nkf
+tmux
+git
+fontforge
+wget
+curl
+unzip
