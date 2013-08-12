@@ -5,6 +5,8 @@ python-scipy
 python-pip
 python-nose
 python-matplotlib
+libblas-dev
+liblapack-dev
 cython
 ruby
 sox
@@ -16,4 +18,5 @@ gnuplot-x11
 ibus-mozc
 mozc-server
 mozc-utils-gui
+emacs-mozc-bin
 dropbox
