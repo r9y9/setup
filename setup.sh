@@ -66,15 +66,15 @@ function install_commands() {
     path="./package-list"
 
     # common install comands list
-    if [ -e $path/common.list ]
+    if [ -e $path/common ]
     then
-	create_valid_install_commands_from_file "$path/common.list"
+	create_valid_install_commands_from_file "$path/common"
     fi
 
     # user specified command list
-    if [ -e $path/$type.list ]
+    if [ -e $path/$type ]
     then
-	create_valid_install_commands_from_file "$path/$type.list"
+	create_valid_install_commands_from_file "$path/$type"
     fi
     # install
     echo ${installed_list[@]} | xargs sudo ${package_management} install -y
