@@ -10,3 +10,4 @@ fontforge
 wget
 curl
 unzip
+python-software-properties
