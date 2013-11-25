@@ -6,6 +6,7 @@ zsh
 nkf
 tmux
 git
+mercurial
 fontforge
 wget
 curl
