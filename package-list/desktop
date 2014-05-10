@@ -6,11 +6,13 @@ python-scipy
 python-pip
 python-nose
 python-matplotlib
+libopenblas-dev
 libblas-dev
 liblapack-dev
 libsndfile1-dev
 cython
 ruby
+ruby-dev
 sox
 gcc
 fontforge
@@ -21,4 +23,9 @@ ibus-mozc
 mozc-server
 mozc-utils-gui
 emacs-mozc-bin
-dropbox
+clang
+cmake
+libyaml-dev
+jq
+lv
+libpq-dev
